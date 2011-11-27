@@ -13,12 +13,13 @@ This port uses BeautifulSoup for the HTML parsing. That means it can be
 a little slow, but will work on Google App Engine (unlike libxml-based
 libraries)
 
-
-**note**: I don't currently have any plans for using or improving this
-library, and it's far from perfect (slow, and almost certainly buggy).
-So if you do something cool with it or have a better tool that does
-the same job, please let me know and I can link to it from here.
-
 If you're looking for alternatives / forks, here's the list so far:
  - http://www.minvolai.com/blog/decruft-arc90s-readability-in-python/
  - https://github.com/buriy/python-readability
+ - https://github.com/gfxmonk/python-readability
+
+----- Abishek Goda's Edits ------
+
+ - Forked this primarily to try some simple additions to the existing flow.
+ - Will try to fix any bugs that I encounter (and possibly notify gfxmonk to update in his branch)
+ - Not promising stable fixes. This is my experimental sandbox for the plugin.
